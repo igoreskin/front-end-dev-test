@@ -1,0 +1,61 @@
+html {
+  
+}
+
+.top-banner {
+  background-color: #00303c;
+  display: flex;
+  height: 50px;
+}
+
+#heading {
+  color: white;
+  margin: 10px 0 0 10px;
+  font-size: 150%
+}
+
+.heading {
+  font-family: 'Merriweather', serif;
+}
+
+.card-heading {
+  color: #013745;
+  margin-bottom: 30px;
+  font-size: 120%;
+}
+
+.banner-link {
+  color: white;
+  margin: 15px 20px;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+.space {
+  flex-grow: 1;
+}
+
+.main-container {
+  height: 93vh;
+  background-color: #E7E7E7;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-card {
+  height: 150px;
+  width: 26%;
+  background-color: white;
+  text-align: center;
+  margin: 150px 20px 0 20px;
+  padding: 15px 50px;
+}
