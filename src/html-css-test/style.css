@@ -11,7 +11,8 @@ html {
 #heading {
   color: white;
   margin: 10px 0 0 10px;
-  font-size: 150%
+  font-size: 150%;
+  font-weight: 300;
 }
 
 .heading {
@@ -20,8 +21,9 @@ html {
 
 .card-heading {
   color: #013745;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 120%;
+  font-weight: 400;
 }
 
 .banner-link {
@@ -29,8 +31,23 @@ html {
   margin: 15px 20px;
 }
 
+.top-banner a span:link, 
+.top-banner a span:visited {
+  text-decoration: none !important;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.top-banner a span:hover, 
+.top-banner a span:focus,
+.top-banner a span:active {
+  text-decoration: none !important;
+  border-bottom: 2px solid #f74b59;
+}
+
 .text {
   font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 .card-text {
@@ -51,7 +68,10 @@ html {
   justify-content: center;
 }
 
-.menu-card {
+.row a:link,
+.row a:active {
+  text-decoration: none;
+  color: black;
   height: 150px;
   width: 26%;
   background-color: white;
@@ -60,6 +80,16 @@ html {
   padding: 15px 50px;
   box-shadow: 3px 3px 4px #AAAAAA;
 }
+
+/* .menu-card {
+  height: 150px;
+  width: 26%;
+  background-color: white;
+  text-align: center;
+  margin: 150px 20px 0 20px;
+  padding: 15px 50px;
+  box-shadow: 3px 3px 4px #AAAAAA; */
+/* } */
 
 .teach {
   position: fixed;
@@ -85,3 +115,20 @@ html {
 .red {
   color: #CF3339;
 }
+
+
+.menu-card .line {
+    visibility: hidden;
+    height: 2px;
+    background-color: #ffad00;
+    content: " ";
+    width: 80px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.row a:hover .menu-card .line,
+.row a:focus .menu-card .line {
+  visibility: visible;
+}
+
