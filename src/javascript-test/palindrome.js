@@ -6,7 +6,7 @@ object separately. I also intentionally refrained from using the reverse() metho
 
 const isPalindrome = (str) => {
   try {
-    const stripped = str.replace(/[^0-9-zA-Z]/gi, '');
+    const stripped = str.replace(/[^0-9a-zA-Z]/gi, '');
     return stripped.length > 0 && stripped === stripped.split('').reduce((aggr, el) => el + aggr, '');
   } catch (error) {
     console.error(`${error.name}: the argument must be a string, otherwise ${error.message}!`)
