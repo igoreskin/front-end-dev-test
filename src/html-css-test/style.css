@@ -22,7 +22,7 @@ html {
 .card-heading {
   color: #013745;
   margin-bottom: 20px;
-  font-size: 120%;
+  font-size: 140%;
   font-weight: 400;
 }
 
@@ -55,7 +55,8 @@ html {
 }
 
 .card-text {
-  font-size: 85%;
+  font-size: 100%;
+  letter-spacing: -0.3px;
 }
 
 .space {
