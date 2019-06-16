@@ -96,10 +96,6 @@
     align-self: flex-end;
   }
 
-  /* .space {
-    display: none;
-  } */
-
   .row a:link,
   .row a:active {
     height: 110px;
@@ -142,13 +138,11 @@
 
 @media only screen and (max-width: 327px) {
   .teach {
-    display: flex;
-    flex-direction: column;
-    margin-left: 30px;
+    font-size: 110%;
+    margin-left: 35px;
   }
 
-  #for, #america {
-    margin-left: 0px;
-    margin-top: -8px;
+  .banner-link {
+    font-size: 95%;
   }
 }
