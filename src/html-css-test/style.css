@@ -91,7 +91,7 @@
     width: 0px;
     margin: 0 auto;
     margin-bottom: 20px;
-    transition: width 0.5s;
+    transition: width 0.3s;
 }
 
 .row a:hover .menu-card .line,
